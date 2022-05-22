@@ -1,0 +1,16 @@
+<items>
+
+
+	<set xpath="/items/item[starts-with(@name, 'meleeTool')]/effect_group[starts-with(@name, 'meleeTool')]/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+	<set xpath="/items/item[starts-with(@name, 'meleeWpn')]/effect_group[starts-with(@name, 'meleeWpn')]/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+	<set xpath="/items/item[starts-with(@name, 'gunHandgun')]/effect_group[starts-with(@name, 'gunHandgun')]/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+	<set xpath="/items/item[starts-with(@name, 'gunShotgun')]/effect_group[starts-with(@name, 'gunShotgun')]/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+	<set xpath="/items/item[starts-with(@name, 'gunRifle')]/effect_group[starts-with(@name, 'gunRifle')]/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+	<set xpath="/items/item[starts-with(@name, 'gunMGT')]/effect_group[starts-with(@name, 'gunMGT')]/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+	<set xpath="/items/item[starts-with(@name, 'gunExplosives')]/effect_group[starts-with(@name, 'gunExplosives')]/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+	<set xpath="/items/item[starts-with(@name, 'gunBow')]/effect_group[starts-with(@name, 'gunBow')]/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+	<set xpath="/items/item[starts-with(@name, 'gunBot')]/effect_group[starts-with(@name, 'gunBot')]/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+	<set xpath="/items/item[starts-with(@name, 'armor')]/effect_group[contains(@name, 'armor')]/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+
+
+</items>

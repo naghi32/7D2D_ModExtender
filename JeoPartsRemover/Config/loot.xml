@@ -1,0 +1,7 @@
+<lootcontainers>
+	
+	<set  xpath="/lootcontainers/lootgroup/item[starts-with(@name,'gun') and contains(@name,'Parts')]/@count">0</set>
+	<set  xpath="/lootcontainers/lootgroup/item[starts-with(@name,'melee') and contains(@name,'Parts')]/@count">0</set>
+	<set  xpath="/lootcontainers/lootgroup/item[starts-with(@name,'armor') and contains(@name,'Parts')]/@count">0</set>
+
+</lootcontainers>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jeos Fast scraper mod"/>
+		<Description value="Increases the rate of scraping items"/>
+		<Author value="Jeo"/>
+		<Version value="20.0.0" compat="A20,A19,A18" />
+	</ModInfo>
+</xml>

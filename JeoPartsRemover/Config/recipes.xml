@@ -4,15 +4,14 @@
 	<set xpath="/recipes/recipe[starts-with(@name, 'melee')]/ingredient[starts-with(@name, 'melee')]/@count">0</set>
 	<set xpath="/recipes/recipe[starts-with(@name, 'armor')]/ingredient[starts-with(@name, 'armor')]/@count">0</set>
 
-	<set xpath="/recipes/recipe[starts-with(@name, 'gun')]/ingredient[starts-with(@name, 'resourceForgedSteel')]/@count">50</set>
-	<set xpath="/recipes/recipe[starts-with(@name, 'gun')]/ingredient[starts-with(@name, 'resourceForgedIron')]/@count">50</set>
+	<set xpath="/recipes/recipe[starts-with(@name, 'gun')]/ingredient[starts-with(@name, 'gun')]/../ingredient[starts-with(@name, 'resourceForgedSteel')]/@count">50</set>
+	<set xpath="/recipes/recipe[starts-with(@name, 'gun')]/ingredient[starts-with(@name, 'gun')]/../ingredient[starts-with(@name, 'resourceForgedIron')]/@count">50</set>
 	
-	<set xpath="/recipes/recipe[starts-with(@name, 'melee')]/ingredient[starts-with(@name, 'resourceForgedIron')]/@count">50</set>	
-	<set xpath="/recipes/recipe[starts-with(@name, 'melee')]/ingredient[starts-with(@name, 'resourceForgedSteel')]/@count">50</set>	
+	<set xpath="/recipes/recipe[starts-with(@name, 'melee')]/ingredient[starts-with(@name, 'melee')]/../ingredient[starts-with(@name, 'resourceForgedIron')]/@count">50</set>	
+	<set xpath="/recipes/recipe[starts-with(@name, 'melee')]/ingredient[starts-with(@name, 'melee')]/../ingredient[starts-with(@name, 'resourceForgedSteel')]/@count">50</set>	
 	
-	<set xpath="/recipes/recipe[starts-with(@name, 'armor')]/ingredient[starts-with(@name, 'resourceMilitaryFiber')]/@count">10</set>	
-	<set xpath="/recipes/recipe[starts-with(@name, 'armor')]/ingredient[starts-with(@name, 'resourceForgedIron')]/@count">50</set>	
-	<set xpath="/recipes/recipe[starts-with(@name, 'armor')]/ingredient[starts-with(@name, 'resourceForgedSteel')]/@count">50</set>	
+	<set xpath="/recipes/recipe[starts-with(@name, 'armor')]/ingredient[starts-with(@name, 'armor')]/../ingredient[starts-with(@name, 'resourceMilitaryFiber')]/@count">10</set>	
+		<set xpath="/recipes/recipe[starts-with(@name, 'armor')]/ingredient[starts-with(@name, 'armor')]/../ingredient[starts-with(@name, 'resourceForgedSteel')]/@count">50</set>	
 	
 	
 </recipes>
